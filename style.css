@@ -4,6 +4,29 @@ body{
     font-size: 20px;
     margin: 0;
 }
+.topnav {
+  overflow: hidden;
+  background-color: rgb(216, 78, 53);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:salmon;
+  color: orange;
+}
+
+.topnav a.active {
+  background-image: linear-gradient(yellow, orangered);
+  color: white;
+}
 section{
     display: flex;
     margin: 10px;
@@ -47,7 +70,7 @@ p{
     width: 50%;
 }
 .half-width-2 img{
-    width: 293px;
+    width: 340px;
     margin-left: 120px;
     margin-bottom: 0%;
 }
@@ -131,4 +154,15 @@ p{
     width: 90%;
     border-radius: 20px;
     margin-left: 17px;
+}
+.footer{
+    background-color: black;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer p{
+    margin: 0%;
+    color: whitesmoke;
+    border-bottom: 150px solid black;
 }
