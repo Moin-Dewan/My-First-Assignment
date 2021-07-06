@@ -9,7 +9,9 @@ section{
     margin: 10px;
     padding-left: 5%;
     padding-top: 10%;
-
+}
+.gray-colour{
+    color: rgb(65, 59, 59);
 }
 .half-width{
     width: 50%;
@@ -67,4 +69,66 @@ p{
     background-image: linear-gradient(rgb(233, 119, 74), rgb(255, 94, 66));
     box-shadow: 4px 4px 20px lightsalmon;
     font-weight: 300;
+}
+.sec-3-div{
+    text-align: center;
+    color: rgb(88, 87, 87);
+    margin-top: -30px;
+    margin-bottom: -100px;
+}
+.sec-3-p{
+    text-align: center;
+    margin: 0 20%;
+    color: black;
+    width: 100;
+}
+.left-eggimage{
+    border: 5px solid white;
+    border-radius: 20px;
+    vertical-align: middle;
+    box-shadow: 5px 5px 20px gray;
+    text-align: left;
+    width: 25%;
+    padding:2px;
+    margin: 3%
+}
+.middle-eggimage{
+    border: 5px solid white;
+    border-radius: 20px;
+    vertical-align: middle;
+    box-shadow: 5px 5px 20px gray;
+    text-align: left;
+    float: left;
+    width: 25%;
+    padding:2px;
+    margin: 3%
+}
+.right-eggimage{
+    border: 5px solid white;
+    border-radius: 20px;
+    vertical-align: middle;
+    box-shadow: 5px 5px 20px gray;
+    text-align: left;
+    float: right;
+    width: 25%;
+    padding: 2px;
+    margin: 3%
+}
+.font-size{
+    font-size: small;
+}
+#egg-1{
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+#egg-2{
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+#egg-3{
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 17px;
 }
