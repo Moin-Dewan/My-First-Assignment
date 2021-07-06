@@ -1,7 +1,70 @@
 body{
     font-family: 'Poppins', sans-serif; ;
-    line-height: 120px;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+section{
+    display: flex;
+    margin: 10px;
+    padding-left: 5%;
+    padding-top: 10%;
+
+}
+.half-width{
+    width: 50%;
+    color: rgb(49, 55, 61);
+    font-weight: 0;
+}
+.half-width img{
+    width: 90%;
+    position: relative;top: -120px;
 }
 .word-color{
     color: orange;
+}
+p{
+    margin-bottom: 5%;
+    font-weight: 300;
+
+}
+.sec-1-h1{
+    font-weight: bolder;
+}
+.anchor-btn{
+    background-image:linear-gradient(rgb(233, 119, 74), rgb(255, 94, 66));
+
+    padding: 15px 35px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 4px 4px 20px lightsalmon;
+    font-weight: 300;
+}
+.half-width-2{
+    width: 50%;
+}
+.half-width-2 img{
+    width: 293px;
+    margin-left: 120px;
+    margin-bottom: 0%;
+}
+#background-image{
+    background-image: url(food-network-main/images/shapes/7.png);
+    margin: 0%;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.sec-2-p{
+    text-align: justify;
+    margin-right: 30%;
+}
+.anchor-btn-2{
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 15px 35px;
+    background-image: linear-gradient(rgb(233, 119, 74), rgb(255, 94, 66));
+    box-shadow: 4px 4px 20px lightsalmon;
+    font-weight: 300;
 }
